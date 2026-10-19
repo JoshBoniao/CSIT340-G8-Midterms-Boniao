@@ -1,8 +1,13 @@
+import Controls from "./Controls"
 function Docs ({handleRead, handleBookmark, handleReset}) {
     return (
         <div>
           <div className="mt-6 flex gap-4">
-            <button
+            <Controls handle = {handleRead} label = "Mark as read" />
+            <Controls handle = {handleBookmark} label = "Bookmark" />
+            <Controls handle = {handleReset} label = "Reset" />
+
+            {/* <button
               className="cursor-pointer rounded-lg bg-[#5C766D] px-8 py-3 text-xl font-bold text-[#EDE9E6]"
               onClick={handleRead}
             >
@@ -19,7 +24,7 @@ function Docs ({handleRead, handleBookmark, handleReset}) {
               onClick={handleReset}
             >
               Reset
-            </button>
+            </button> */}
           </div>
         </div>
     )
