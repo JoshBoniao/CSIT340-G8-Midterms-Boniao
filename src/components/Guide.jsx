@@ -6,8 +6,9 @@ function Guide () {
         command = "git init" />
         <Section title = "Rename" description = "Renames the current branch to main."
         command = "git branch -M main" />
-        <Section title = "Create" description = "Sends the main branch to the remote named origin."
+        <Section title = "Upload" description = "Sends the main branch to the remote named origin."
         command = "git push -u origin main" />
+        
         
       </main>
     )
