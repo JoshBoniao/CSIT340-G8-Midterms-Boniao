@@ -1,4 +1,4 @@
-function Docs () {
+function Docs ({handleRead, handleBookmark, handleReset}) {
     return (
         <div>
           <div className="mt-6 flex gap-4">
