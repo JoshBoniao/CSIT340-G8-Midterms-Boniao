@@ -34,9 +34,9 @@ function Feedback() {
                 </button>
             </div>
             <p className="text-2xl">
-                <span className="font-bold">{yes}</span> 
+                <span className="font-bold">{yes} </span>  
                 out of 
-                <span className="font-bold">{yes + no}</span> 
+                <span className="font-bold"> {yes + no} </span> 
                 found this helpful
             </p>
         </div>

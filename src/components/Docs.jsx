@@ -3,6 +3,7 @@ import Header from "./Header"
 import StatCard from "./StatCard"
 function Docs ({handleRead, handleBookmark, handleReset, read, bookmarks}) {
     return (
+      <div className="flex items-end justify-between px-20 pt-10" >
         <div>
           <Header />
           <div className="mt-6 flex gap-4">
@@ -15,6 +16,7 @@ function Docs ({handleRead, handleBookmark, handleReset, read, bookmarks}) {
               <StatCard value = {bookmarks} label = "Bookmarks" />
           </div>
         </div>
+      </div>
     )
 }
 export default Docs
