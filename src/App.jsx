@@ -1,5 +1,9 @@
 import { useState } from "react";
 import Sidebar from "./components/Sidebar";
+import StatCard from "./components/StatCard";
+import Header from "./components/Header";
+import Docs from "./components/Docs";
+import Guide from ".components/Guide"
 function App() {
   const [read, setRead] = useState(0);
   const [bookmarks, setBookmarks] = useState(0);
